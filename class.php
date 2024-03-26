@@ -6,12 +6,12 @@ class Person {
     public $hobby="";
 
     public function _construct($name, $hobby){
-        $this->$name = $name;
-        $this->$hobby = $hobby; 
+        $this->name = $name;
+        $this->hobby = $hobby; 
     }
 
     public function greet(){
-        echo $this->$name." say Hello! he loves to play ".$this->$hobby;
+        echo $this->name." say Hello! he loves to play ".$this->hobby;
     }
     public function jump(){
         echo "Jump";
