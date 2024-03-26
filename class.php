@@ -11,7 +11,7 @@ class Person {
     }
 
     public function greet(){
-        echo $this->name." say Hello! he loves to play ".$this->hobby;
+        echo $this->$name." say Hello! he loves to play ".$this->$hobby;
     }
     public function jump(){
         echo "Jump";
