@@ -18,5 +18,7 @@ $array = ["a",'b','c'];
 
 echo $a;
 
+print_r($array);
+
 
 ?>
