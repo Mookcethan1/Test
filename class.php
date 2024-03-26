@@ -2,14 +2,25 @@
 
 class Person {
     public $age = 35;
+    public $name="";
+    public $hobby="";
+
+    public function_construct($name, $hobby){
+        $this->$name = $name;
+        $this->hobby = $hobby; 
+    }
 
     public function greet(){
-        echo "Hello";
+        echo $this->name." say Hello! he loves to play ".$this->hobby;
+    }
+    public function jump(){
+        echo "Jump";
     }
 
 }
 
-$p = new Person();
+$p = new Person("Jason","Baketball"); //Instantiate (Class -> Object)
 $p->greet();
+$p->jump();
 
 ?>
