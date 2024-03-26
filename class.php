@@ -7,7 +7,7 @@ class Person {
 
     public function_construct($name, $hobby){
         $this->$name = $name;
-        $this->hobby = $hobby; 
+        $this->$hobby = $hobby; 
     }
 
     public function greet(){
