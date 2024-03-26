@@ -21,6 +21,5 @@ class Person {
 
 $p = new Person("Jason","Baketball"); //Instantiate (Class -> Object)
 $p->greet();
-$p->jump();
 
 ?>
