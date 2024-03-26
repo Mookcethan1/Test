@@ -9,5 +9,7 @@ class Person {
 
 }
 
+$p = new Person();
+$p->greet();
 
 ?>
