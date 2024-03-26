@@ -5,7 +5,7 @@ class Person {
     public $name="";
     public $hobby="";
 
-    public function_construct($name, $hobby){
+    public function _construct($name, $hobby){
         $this->$name = $name;
         $this->$hobby = $hobby; 
     }
