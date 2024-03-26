@@ -16,7 +16,7 @@ $array =  array(
 //Array (php 5.4 above)
 $array = ["a",'b','c'];
 
-echo $array;
+echo $a;
 
 
 ?>
